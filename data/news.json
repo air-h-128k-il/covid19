@@ -1,14 +1,14 @@
 {
     "newsItems": [
         {
+            "date": "4\/17\/2020",
+            "url": "https:\/\/www.pref.niigata.lg.jp\/uploaded\/attachment\/215214.pdf",
+            "text": "緊急事態宣言発令による新潟県から『県民の皆様へのお願い』"
+        },
+        {
             "date": "4\/08\/2020",
             "url": "https:\/\/cio.go.jp\/hosp_monitoring_c19",
             "text": "政府CIOポータル『全国医療機関の提供体制の状況（β版）』"
-        },
-        {
-            "date": "3\/30\/2020",
-            "url": "https:\/\/www.pref.niigata.lg.jp\/uploaded\/attachment\/211750.pdf",
-            "text": "新潟県『新型コロナウイルス感染症に関する県民の皆様へのお願い』"
         },
         {
             "date": "3\/25\/2020",

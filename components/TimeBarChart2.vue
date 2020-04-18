@@ -86,7 +86,7 @@ export default {
     displayInfo() {
       if (this.dataKind === 'transition') {
         return {
-          lText: `${this.chartData.slice(-1)[0].transition.toLocaleString("ja-jp",{maximumSignificantDigits:3})}`,//origin
+          lText: `${this.chartData.slice(-1)[0].transition.toLocaleString("ja-jp",{maximumSignificantDigits:3})}`,
           //lText: `${this.chartData.slice(-1)[0].transition.toFixed(3)*100.0}`,//add h.inomata
           sText: `${this.$t('実績値')}（${this.$t('前日比')}: ${
             this.displayTransitionRatio
