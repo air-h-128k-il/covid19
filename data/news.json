@@ -1,6 +1,16 @@
 {
     "newsItems": [
         {
+            "date": "4\/18\/2020",
+            "url": "https:\/\/phazor.info\/blog-ja\/?p=1320",
+            "text": "陽性率に関してはこちらで解説してます（運営より）"
+        },
+        {
+            "date": "4\/18\/2020",
+            "url": "https:\/\/www3.nhk.or.jp\/news\/html\/20200418\/k10012394711000.html",
+            "text": "陽性率はNHKも注目！"
+        },
+        {
             "date": "4\/17\/2020",
             "url": "https:\/\/www.pref.niigata.lg.jp\/uploaded\/attachment\/215214.pdf",
             "text": "緊急事態宣言発令による新潟県から『県民の皆様へのお願い』"
