@@ -106,8 +106,8 @@
 
 <script>
 import Data from '@/data/data.json'
-import DataPR from '@/data/positiverate3.json'//add ataraxia
-import DataPR2 from '@/data/positiverate3-tokyo.json'//add
+import DataPR from '@/data/positiverate3.json' // add ataraxia
+import DataPR2 from '@/data/positiverate3-tokyo.json' // add
 import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
@@ -118,8 +118,8 @@ import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvi
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 import MetroCard from '@/components/cards/MetroCard.vue'
 import AgencyCard from '@/components/cards/AgencyCard.vue'
-import PositiveRateCard from '@/components/cards/PositiveRateCard.vue'//add
-import PositiveRateCard2 from '@/components/cards/PositiveRateCard2.vue'//add
+import PositiveRateCard from '@/components/cards/PositiveRateCard.vue' // add
+import PositiveRateCard2 from '@/components/cards/PositiveRateCard2.vue' // add
 
 export default {
   components: {
@@ -191,7 +191,7 @@ export default {
     const description =
       this.updatedAt +
       ' 更新 | ' +
-      '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県民有志（医師含む、主にHorliX開発チーム）が開設したものです。'
+      '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県民有志（医師含む、主にHorliX開発チーム）が開設したものです。広域対策のため近隣県（山形・福島・群馬・長野・富山）サイトへのリンク及び感染伝播の地域差を比較するため東京都の陽性率時系列グラフなども含まれています。'
 
     return {
       title: this.title,
