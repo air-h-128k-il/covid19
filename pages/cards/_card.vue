@@ -106,6 +106,8 @@
 
 <script>
 import Data from '@/data/data.json'
+import DataPR from '@/data/positiverate3.json'//add ataraxia
+import DataPR2 from '@/data/positiverate3-tokyo.json'//add
 import MetroData from '@/data/metro.json'
 import agencyData from '@/data/agency.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
@@ -116,6 +118,8 @@ import TelephoneAdvisoryReportsNumberCard from '@/components/cards/TelephoneAdvi
 import ConsultationDeskReportsNumberCard from '@/components/cards/ConsultationDeskReportsNumberCard.vue'
 import MetroCard from '@/components/cards/MetroCard.vue'
 import AgencyCard from '@/components/cards/AgencyCard.vue'
+import PositiveRateCard from '@/components/cards/PositiveRateCard.vue'//add
+import PositiveRateCard2 from '@/components/cards/PositiveRateCard2.vue'//add
 
 export default {
   components: {
@@ -126,7 +130,9 @@ export default {
     TelephoneAdvisoryReportsNumberCard,
     ConsultationDeskReportsNumberCard,
     MetroCard,
-    AgencyCard
+    AgencyCard,
+    PositiveRateCard,
+    PositiveRateCard2
   },
   data() {
     let title, updatedAt
@@ -163,6 +169,14 @@ export default {
         title = this.$t('都庁来庁者数の推移')
         updatedAt = agencyData.date
         break
+      case 'positive-rate':
+        title = this.$t('陽性率')
+        updatedAt = DataPR.date
+        break
+      case 'positive-rate2':
+        title = this.$t('陽性率：東京')
+        updatedAt = DataPR2.date
+        break
     }
 
     const data = {
@@ -177,7 +191,7 @@ export default {
     const description =
       this.updatedAt +
       ' 更新 | ' +
-      '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県民有志（医師含む）が開設したものです。'
+      '当サイトは新型コロナウイルス感染症（COVID-19）に関する最新情報を提供するために、新潟県民有志（医師含む、主にHorliX開発チーム）が開設したものです。'
 
     return {
       title: this.title,
