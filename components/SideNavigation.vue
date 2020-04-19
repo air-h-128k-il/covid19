@@ -66,7 +66,7 @@
             <img src="/facebook.png" alt="Facebook" />
           </a>-->
           <a
-            href="https://github.com/tokyo-metropolitan-gov/covid19"
+            href="https://github.com/air-h-128k-il/covid19"
             target="_blank"
             rel="noopener"
           >
