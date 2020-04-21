@@ -44,8 +44,8 @@
     />
     <static-info
       class="mb-4"
-      :url="'https://stopcovid19-gunma.netlify.com/'"
-      :text="$t('【近隣県（関越道繋がり）】群馬県非公式サイト')"
+      :url="'https://stopcovid19.pref.gunma.jp/'"
+      :text="$t('【近隣県（関越道繋がり）】群馬県公式サイト')"
       :btn-text="$t('Jump!')"
     />
     <static-info
