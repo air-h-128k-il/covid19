@@ -32,7 +32,7 @@
     />
     <static-info
       class="mb-4"
-      :url="'https://stopcovid19-yamagata.netlify.com/'"
+      :url="'https://stopcovid19-yamagata-unofficial.netlify.app/'"
       :text="$t('【近隣県（県北部）】山形県非公式サイト')"
       :btn-text="$t('Jump!')"
     />
@@ -50,14 +50,14 @@
     />
     <static-info
       class="mb-4"
-      :url="'https://stopcovid19-toyama.netlify.com/'"
-      :text="$t('【近隣県（親知らずの向こう）】富山県公認サイト')"
+      :url="'https://stop-covid19-nagano.netlify.app/'"
+      :text="$t('【近隣県（川中島でおなじみ）】長野県非公式サイト')"
       :btn-text="$t('Jump!')"
     />
     <static-info
       class="mb-4"
-      :url="'https://stop-covid19-nagano.netlify.app/'"
-      :text="$t('【近隣県（川中島でおなじみ）】長野県非公式サイト')"
+      :url="'https://stopcovid19-toyama.netlify.com/'"
+      :text="$t('【近隣県（親知知の向こう）】富山県公認サイト')"
       :btn-text="$t('Jump!')"
     />
     <!--<v-row class="StaticCard">
