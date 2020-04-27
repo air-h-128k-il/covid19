@@ -6,6 +6,9 @@
       :date="headerItem.date"
     />
     <whats-new class="mb-4" :items="newsItems" />
+    <div class="EmergencyPosterBlock mb-4" align="center">
+      <img class="EmergencyPosterImage" src="/emergency-poster.png" />
+    </div>
     <static-info
       class="mb-4"
       :url="localePath('/flow')"
