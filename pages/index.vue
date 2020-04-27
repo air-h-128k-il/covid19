@@ -36,13 +36,13 @@
     <static-info
       class="mb-4"
       :url="'https://stopcovid19-yamagata-unofficial.netlify.app/'"
-      :text="$t('【近隣県（県北部）】山形県非公式サイト')"
+      :text="$t('【近隣県（県北部）】山形県非公式サイト【緊急共同宣言発出中】')"
       :btn-text="$t('Jump!')"
     />
     <static-info
       class="mb-4"
       :url="'https://fukushima-covid19.firebaseapp.com/'"
-      :text="$t('【近隣県（阿賀野川の源流）】福島県非公式サイト')"
+      :text="$t('【近隣県（阿賀野川の源流）】福島県非公式サイト【緊急共同宣言発出中】')"
       :btn-text="$t('Jump!')"
     />
     <static-info
@@ -61,6 +61,30 @@
       class="mb-4"
       :url="'https://stopcovid19-toyama.netlify.com/'"
       :text="$t('【近隣県（親知知の向こう）】富山県公認サイト')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://miyagi.stopcovid19.jp/'"
+      :text="$t('【奥羽越列藩同盟】宮城県非公式サイト【緊急共同宣言発出中】')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://covid19-akita.netlify.app/'"
+      :text="$t('【奥羽越列藩同盟】秋田県非公式サイト【緊急共同宣言発出中】')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://iwate.stopcovid19.jp/'"
+      :text="$t('【奥羽越列藩同盟】岩手県非公式サイト【緊急共同宣言発出中】')"
+      :btn-text="$t('Jump!')"
+    />
+    <static-info
+      class="mb-4"
+      :url="'https://covid19-aomori.info/'"
+      :text="$t('【奥羽越列藩同盟】青森県非公式サイト【緊急共同宣言発出中】')"
       :btn-text="$t('Jump!')"
     />
     <!--<v-row class="StaticCard">
