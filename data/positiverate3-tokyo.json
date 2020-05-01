@@ -2262,7 +2262,7 @@
     "lastUpdate": "2020\/04\/16 15:00",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 1874,
+        "value": 1000,
         "children": [
             {
                 "attr": "陽性患者数",
