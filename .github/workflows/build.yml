@@ -23,7 +23,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - run: yarn install --frozen-lockfile
+      - run: yarn install --force
       - run: yarn run test
       - run: yarn run generate:deploy --fail-on-page-error
 
